@@ -1,0 +1,673 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    transition: all .3s linear;
+    text-decoration: none;
+
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    padding-block: 16px;
+    background: rgba(122, 199, 81, 1);
+    width: 100%;
+    padding-inline: 16px;
+}
+
+.header_items {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_items p {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.login_section {
+    display: flex;
+    gap: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.login_section a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.items-section {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-inline: 16px;
+}
+
+.logo {
+    display: flex;
+    align-items: end;
+    gap: 4px;
+}
+
+.logo h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.44px;
+    color: rgba(85, 85, 85, 1);
+}
+select {
+        border: none;
+        outline: none;
+        color: white;
+        background: transparent;
+}
+select option{
+    color:  rgba(85, 85, 85, 1);
+    
+}
+.input-div-select{
+    color: rgba(85, 85, 85, 1);
+    border-left: 1.5px solid rgba(227, 227, 227, 0.78);
+    min-height: 100%;
+    cursor: pointer;
+    padding-inline: 5px;
+}
+
+.input_div {
+    border: 2px solid rgba(122, 199, 81, 1);
+    max-width: 582px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-inline: 20px 0px; */
+    overflow: hidden;
+    height: 46px;
+    border-radius: 8px;
+}
+
+.input_div input {
+    padding: 15px 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+
+.input_div {
+    display: flex;
+}
+
+.input_div .search {
+    background: rgba(122, 199, 81, 1);
+    color: white;
+    min-height: 100%;
+    text-align: center;
+    width: 55px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.shopping_items {
+    font-size: 24px;
+    color: rgba(85, 85, 85, 1);
+    display: flex;
+    gap: 21px;
+}
+
+.shopping_items i {
+    cursor: pointer;
+}
+
+.home-section {
+    background: rgba(247, 248, 250, 1);
+    margin-top: 25px;
+}
+
+.home-section-menus {
+    display: flex;
+    margin-inline: auto;
+    max-width: 1200px;
+    padding-inline: 16px;
+}
+
+.home-section-menus .filter-menu {
+    background: rgba(122, 199, 81, 1);
+    color: white;
+    position: relative;
+
+}
+
+.home-section-menus .filter-menu h2 {
+    font-size: 16px;
+    padding-block: 24px;
+    text-align: center;
+    padding-inline: 40px;
+}
+
+.home-section-ul {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    /* gap: 65px; */
+}
+
+.home-section-ul .home-section-li {
+    padding-block: 25px;
+    padding-inline: 32px;
+}
+
+.home-section-ul .home-section-li a {
+    color: rgba(85, 85, 85, 1);
+
+}
+
+.home-preview {
+    display: flex;
+    margin-inline: auto;
+    max-width: 1200px;
+    padding-inline: 16px;
+    margin-bottom: 65px;
+}
+
+.products-list ul li {
+    padding-inline: 29px;
+    padding-block: 10px;
+    border-bottom: 0.8px solid rgba(227, 227, 227, 1);
+    width: 250px;
+    background: rgba(247, 248, 250, 1);
+
+    /* width: 100%; */
+}
+
+.products-list ul li a {
+    color: rgba(85, 85, 85, 1);
+}
+
+.chair-sale-div {
+    display: flex;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    margin-inline: 10px;
+    align-items: center;
+    margin-block: 10px;
+    padding-inline: 40px;
+}
+
+
+.chair-sale-div .chair-text h3 {
+    color: rgba(122, 199, 81, 1);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+.chair-sale-div .chair-text h1 {
+    color: rgba(47, 47, 47, 1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    margin-bottom: 27px;
+}
+
+.chair-sale-div .chair-text h2 {
+    font-family: Muli;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(81, 81, 81, 0.71);
+    margin-bottom: 35px;
+}
+
+.chair-sale-div .chair-text button {
+    background: rgba(122, 199, 81, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding-block: 10px;
+    border-radius: 5px;
+    padding-inline: 18px;
+}
+
+.chair-images {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.chair-column {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.56) 100%);
+    text-align: center;
+    padding: 7px;
+    border-radius: 8px;
+
+}
+
+.chair-column h4 {
+    font-size: 11px;
+    color: rgba(122, 199, 81, 1);
+    font-weight: 500;
+
+}
+
+.chair-column p {
+    font-size: 7px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.product_columns {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.product_columns .product {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 10px;
+}
+
+.product_columns .product .product-text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.product_columns .product .product-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(81, 81, 81, 0.71);
+}
+
+.product_columns .product img {
+    width: 58px;
+    height: 58px;
+}
+
+.decoration-section {
+    margin-inline: auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 17px;
+    margin-top: 70px;
+}
+
+.decoration-two-images {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.decoration-section .decoration-div {
+    position: relative;
+}
+
+.decoration-section .decoration-div .decoration-text {
+    position: absolute;
+    top: 1px;
+    margin-top: 35px;
+    padding-inline: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.decoration-section .decoration-div .decoration-text h1 {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: Muli;
+    color: rgba(85, 85, 85, 1);
+
+}
+
+.decoration-section .decoration-div .decoration-text h2 {
+    color: rgba(122, 199, 81, 1);
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.decoration-section .decoration-div .decoration-text h2 span {
+    font-weight: 600;
+
+}
+
+.decoration-section .decoration-div .decoration-text a {
+    font-size: 16px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.heading {
+    text-align: center;
+    font-family: Muli;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.18px;
+    color: rgba(85, 85, 85, 1);
+}
+
+
+.center {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 16px;
+}
+
+.chair-sale-section {
+    margin-top: 120px;
+}
+
+.chair-filter-section {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.chair-filter-section .active {
+    color: rgba(122, 199, 81, 1);
+
+}
+
+.chair-filter-section a {
+    color: rgba(194, 194, 194, 1);
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.chair-sale-columns .sale-column .image img {
+    max-width: 100%;
+
+}
+
+.chair-sale-columns .sale-column .text .nameChair {
+    font-family: Muli;
+    color: rgba(117, 117, 117, 0.71);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.chair-sale-columns .sale-column .text h2 {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text .sale-value {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.text-paragraphs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stars i {
+    color: rgba(122, 199, 81, 1);
+    font-size: 10px;
+    text-align: right;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 3.8px;
+
+
+}
+
+.text .sale-value .text-paragraphs .paragraph {
+    color: rgba(122, 199, 81, 1);
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text .sale-value .text-paragraphs span {
+    color: rgba(204, 204, 204, 1);
+    text-decoration: line-through;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.chair-sale-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 50px 10px;
+    margin-top: 73px;
+}
+
+.sale-column .image img {
+    width: 100%;
+}
+
+.sale-column {
+    /* border: 1px solid black; */
+    padding-inline: 16px;
+}
+
+.sale-column .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.sale-icons {
+    position: absolute;
+    bottom: 10px;
+    right: -120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.sale-icons i {
+    width: 38.85px;
+    height: 38.89px;
+    line-height: 38px;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 0px 2px 33px 0px rgba(0, 0, 0, 0.09);
+}
+
+.sale-icons i:hover {
+    background: rgba(122, 199, 81, 1);
+    ;
+    color: white;
+}
+
+.about-chair {
+    position: absolute;
+    font-family: Muli;
+    color: white;
+    width: 44.68px;
+    height: 20.42px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.6px;
+    border-radius: 0 0 10px 0;
+    letter-spacing: 0.08em;
+    text-align: center;
+
+}
+
+.green {
+    background: rgba(122, 199, 81, 1);
+}
+
+.blue {
+    background: rgba(0, 183, 241, 1);
+}
+
+.chair-sale-columns .sale-column .image:hover .sale-icons {
+    right: 10px;
+}
+
+.special_offer-section .heading {
+    margin-bottom: 60px;
+    margin-top: 99px;
+}
+
+.special_offer-section .discount-sale-chair {
+    display: flex;
+    gap: 30px;
+}
+
+.discount-chair .image {
+    position: relative;
+}
+
+.discount-chair .image .text {
+    position: absolute;
+    padding-inline: 24px;
+    top: 20px;
+    max-width: 280px;
+    width: 100%;
+}
+
+
+.discount-chair .image .text h2 {
+    font-family: Muli;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27.61px;
+    color: rgba(85, 85, 85, 1);
+
+
+}
+
+.discount-chair .image .text p {
+    font-family: Muli;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.discount-chair .image .text .value_and_button p {
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(122, 199, 81, 1);
+    letter-spacing: 0.005em;
+    margin-top: 12px;
+
+}
+
+.discount-chair .image .text .value_and_button {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.discount-chair .image .text .value_and_button button {
+    background: rgba(122, 199, 81, 1);
+    color: white;
+    padding-block: 7px;
+    border-radius: 2px;
+    padding-inline: 10px;
+    font-family: Muli;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.discount-chair .image .text .value_and_button p span {
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    letter-spacing: 0.005em;
+    color: rgba(204, 204, 204, 1);
+    text-decoration: line-through;
+}
+
+.data-time-divs {
+    display: flex;
+    gap: 18px;
+}
+
+.data-time-divs .time-div {
+    width: 45px;
+    height: 45px;
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background: rgba(122, 199, 81, 1);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.data-time-divs .time-div h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+
+.text .data-time-divs .time-div p {
+    color: rgba(255, 255, 255, 1);
+    
+    font-family: Rubik;
+    font-size: 8px;
+    font-weight: 400;
+    text-align: center;
+
+    /* border: 1px solid black; */
+
+}
+.chair-column{
+    cursor: pointer;
+}
+.red{
+    background:  rgba(255, 104, 104, 1);
+    
+}
