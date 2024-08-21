@@ -2,6 +2,8 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;800;900&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
 
 * {
     font-family: 'Rubik', sans-serif;
@@ -69,17 +71,20 @@
     line-height: 28.44px;
     color: rgba(85, 85, 85, 1);
 }
+
 select {
-        border: none;
-        outline: none;
-        color: white;
-        background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
 }
-select option{
-    color:  rgba(85, 85, 85, 1);
-    
+
+select option {
+    color: rgba(85, 85, 85, 1);
+
 }
-.input-div-select{
+
+.input-div-select {
     color: rgba(85, 85, 85, 1);
     border-left: 1.5px solid rgba(227, 227, 227, 0.78);
     min-height: 100%;
@@ -642,7 +647,7 @@ button {
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
-    
+
 }
 
 .data-time-divs .time-div h4 {
@@ -650,12 +655,12 @@ button {
     font-size: 14px;
     margin-top: 10px;
     font-weight: 500;
-    
+
 }
 
 .text .data-time-divs .time-div p {
     color: rgba(255, 255, 255, 1);
-    
+
     font-family: Rubik;
     font-size: 8px;
     font-weight: 400;
@@ -664,10 +669,143 @@ button {
     /* border: 1px solid black; */
 
 }
-.chair-column{
+
+.chair-column {
     cursor: pointer;
 }
-.red{
-    background:  rgba(255, 104, 104, 1);
+
+.red {
+    background: rgba(255, 104, 104, 1);
+
+}
+
+.comments-div-section .comments-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments-div-section .heading {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.comments-div-section .comments-div .comment {
+    max-width: 816px;
+    width: 100%;
+    background: rgba(248, 250, 251, 1);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-block: 60px 40px;
+    gap: 20px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.comments-div-section .comments-div .comment .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comments-div-section .comments-div .comment .text .image {
+    position: absolute;
+    left: 45%;
+    top: -50px;
+    /* transform: translateX(50%); */
+}
+
+
+.comments-div-section .comments-div .comment .text p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    max-width: 566px;
+    width: 100%;
+    text-align: center;
+    margin-inline: auto;
+
+}
+
+.comments-div-section .comments-div .comment .text h2 {
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(85, 85, 85, 1);
+}
+
+.comments-div-section .comments-div .comment .text span {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+}
+
+.latest-images-section .latest-images-div{
+    display: grid;
+    margin-inline: auto;
+    gap: 25px;
+    grid-template-columns: repeat( auto-fit , minmax( 500px , 1fr));
+}
+.latest-images-section  .heading{
+    margin-bottom: 55px;
+    margin-top: 115px;
+}
+.latest-images-section .latest-images-div .latest-div {
+    position: relative;
     
+
+}
+
+.latest-images-section .latest-images-div .latest-div .text {
+    position: absolute;
+    bottom: 0px;
+    padding-inline: 44px;
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.latest-images-section .latest-images-div .latest-div .text .date-text p {
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+
+
+
+}
+
+.latest-images-section .latest-images-div .latest-div .text h2 {
+    font-family: Muli;
+    font-size: 39px;
+    font-weight: 700;
+    max-width: 490.1px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.latest-images-section .latest-images-div .latest-div .text .date-text p span {
+    background: rgba(248, 250, 251, 1);
+    color: rgba(122, 199, 81, 1);
+    padding-block: 3px;
+    padding-inline: 6px;
+    border-radius: 4px;
+
+
+}
+
+.latest-images-section .latest-images-div .latest-div .text a {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+
+
+
 }
